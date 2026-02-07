@@ -78,3 +78,12 @@ Your mint txid: 2fB4ZitGaHzM9R1RWYqfLjmRpux8aRjZTu7z7QvQZSWoirtM2qi3mK5eBnHp8Mc9
 
 View on Solana Explorer:
 https://explorer.solana.com/address/9V9P1Vkq4aeU7tmnEfcGnSZ99ivpWqSDFcsE5u21Bvhh?cluster=devnet
+
+# NFT Minting
+
+![Token Screenshot](./generug.png)
+
+NFT tx:
+https://explorer.solana.com/tx/3StXUDgmwx4nW5KGy7zCsuYCgbXGWwHm7AMDCfYpoWWuprvc67QpEbStvBCBqMYQVxqcr1xUXP6yG2ityny5iMUm?cluster=devnet
+
+Mint Address: BDHCKwaQCsHAgYjjyxtrFDAUvcQ6ejnHLeo51WT2iZMq
