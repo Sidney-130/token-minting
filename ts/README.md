@@ -87,3 +87,27 @@ NFT tx:
 https://explorer.solana.com/tx/3StXUDgmwx4nW5KGy7zCsuYCgbXGWwHm7AMDCfYpoWWuprvc67QpEbStvBCBqMYQVxqcr1xUXP6yG2ityny5iMUm?cluster=devnet
 
 Mint Address: BDHCKwaQCsHAgYjjyxtrFDAUvcQ6ejnHLeo51WT2iZMq
+
+Transfer txid: 2g8qmSHbc64U62AJ8DmcPNTCzTW4ixFFLs5XN9SP66jUEwxpHW1raF5eBcEUSiqwyt6mp97rhRQnwsoVCdHxv8kS
+
+# Problems with transferring nft using cli
+
+1. Technical complexity
+   Transferring NFTs via CLI or code requires knowledge of wallets, mint addresses, and token accounts. Mistakes can lead to lost NFTs.
+
+2. No marketplace or automated payment
+   Transfers are peer-to-peer only. You can’t sell, auction, or enforce payments automatically.
+
+3. SOL fees and wallet requirements
+   Every transfer requires SOL for transaction fees, and the recipient must have a token account to receive the NFT.
+
+# Solutions
+
+1. Use a wallet or frontend (e.g., Phantom)
+   Simplifies transfers, reduces errors, and automatically handles token accounts.
+
+2. Build helper functions or smart contracts
+   Programmatically check ownership, validate recipients, and optionally enforce royalties or escrow.
+
+3. Integrate marketplaces or batch transfer contracts
+   Allows multiple transfers, auctions, or sales without manually sending each NFT and ensures secure payment flow.
